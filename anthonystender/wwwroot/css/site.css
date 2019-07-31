@@ -35,3 +35,8 @@ body {
         display: none;
     }
 }
+
+.jumbotron {
+    background-color: cyan;
+    color: white;
+}
