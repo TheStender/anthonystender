@@ -14,7 +14,6 @@ C:\Projects\anthonystender\anthonystender\obj\Debug\netcoreapp2.1\anthonystender
 C:\Projects\anthonystender\anthonystender\obj\Debug\netcoreapp2.1\anthonystender.TagHelpers.input.cache
 C:\Projects\anthonystender\anthonystender\obj\Debug\netcoreapp2.1\anthonystender.TagHelpers.output.cache
 C:\Projects\anthonystender\anthonystender\obj\Debug\netcoreapp2.1\anthonystender.RazorCoreGenerate.cache
-C:\Projects\anthonystender\anthonystender\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
 C:\Projects\anthonystender\anthonystender\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 C:\Projects\anthonystender\anthonystender\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
 C:\Projects\anthonystender\anthonystender\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs

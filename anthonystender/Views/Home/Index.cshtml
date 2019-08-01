@@ -1,52 +1,65 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewBag.Title = "Anthony Stender";
 }
 
-<div class="jumbotron">
+<style>
+    #mainJumbo {
+        background-color: #8fccca;
+    }
+    .projectContent {
+        border: 1px solid;
+    }
+</style>
+
+<div class="jumbotron" id="mainJumbo">
     <div class="text-center">
         <h1>Anthony Stender</h1>
-        <a href="https://www.linkedin.com/in/anthony-stender/">LinkedIn</a>
-        <a href="https://github.com/TheStender">Github</a>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-md-offset-3">
+                    <a href="https://www.linkedin.com/in/anthony-stender/">LinkedIn</a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://github.com/TheStender">Github</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
 <h3>Applications</h3>
 
-<div class="panel-group">
-    <div class="panel panel-default">
-        <div class="panel-heading"><h5>Current Projects</h5></div>
-        <div class="panel-body">
-            <p><strong>Post Pay Job Aid</strong> - Application to assist in my current job (ASP.NET version, in progress)</p>
-            <a href="https://postpay.herokuapp.com/">Link to project</a>&emsp;&emsp;<a href="https://github.com/TheStender/postpay">Link to Github</a>
-        </div>
-        <div class="panel-body">
-            <p><strong>Post Pay Job Aid</strong> - Archived version of application (JQuery/JavaScript version)</p>
-            <a href="https://postpayarchived.herokuapp.com/">Link to project</a>&emsp;&emsp;<a href="https://github.com/TheStender/jobaid">Link to Github</a>
-        </div>
-        <div class="panel-body">
-            <p><strong>Biking Website</strong> - A place to store my biking information</p>
-            <a href="https://minnesotabiking.herokuapp.com/">Link to project</a>&emsp;&emsp;<a href="https://github.com/TheStender/Biking">Link to Github</a>
-        </div>
-        <div class="panel-body">
-            <p><strong>Activity Tracker</strong> - A place to track activities</p>
-            <a href="https://anthonystender-activitytracker.herokuapp.com/">Link to project</a>&emsp;&emsp;<a href="https://github.com/TheStender/activitytracker">Link to Github</a>
-        </div>
-    </div>
 
-    <div class="panel panel-default">
-        <div class="panel-heading"><h5>Future Projects</h5></div>
-        <div class="panel-body">
-            <p><strong>Star Wars Simulation</strong> - A Star Wars simulation game</p>
-            <a href="https://starwarssim.herokuapp.com/">Link to project</a>&emsp;&emsp;<a href="https://github.com/TheStender/starwars">Link to Github</a>
-        </div>
-        <div class="panel-body">
-            <p><strong>Federation Game</strong> - A game based on an AOL game</p>
-            <a href="https://federationgame.herokuapp.com/">Link to project</a>&emsp;&emsp;<a href="https://github.com/TheStender/federation">Link to Github</a>
-        </div>
-        <div class="panel-body">
-            <p><strong>Castle of the Winds RPG Game</strong> - A game based on Castle of the Winds</p>
-            <a href="https://castlerpggame.herokuapp.com/">Link to project</a>&emsp;&emsp;<a href="https://github.com/TheStender/castlerpg">Link to Github</a>
-        </div>
-    </div>
+<h5 class="projectHeader">Current Projects</h5>
 
+<div class="projectContent">
+    <p><strong>Post Pay Job Aid</strong> - Application to assist in my current job (ASP.NET version, in progress)</p>
+    <a href="https://postpay.herokuapp.com/">Link to project</a>&emsp;&emsp;<a href="https://github.com/TheStender/postpay">Link to Github</a>
 </div>
+<div class="projectContent">
+    <p><strong>Post Pay Job Aid</strong> - Archived version of application (JQuery/JavaScript version)</p>
+    <a href="https://postpayarchived.herokuapp.com/">Link to project</a>&emsp;&emsp;<a href="https://github.com/TheStender/jobaid">Link to Github</a>
+</div>
+<div class="projectContent">
+    <p><strong>Biking Website</strong> - A place to store my biking information</p>
+    <a href="https://minnesotabiking.herokuapp.com/">Link to project</a>&emsp;&emsp;<a href="https://github.com/TheStender/Biking">Link to Github</a>
+</div>
+<div class="projectContent">
+    <p><strong>Activity Tracker</strong> - A place to track activities</p>
+    <a href="https://anthonystender-activitytracker.herokuapp.com/">Link to project</a>&emsp;&emsp;<a href="https://github.com/TheStender/activitytracker">Link to Github</a>
+</div>
+
+<h5 class="projectHeader">Future Projects</h5>
+<div class="projectContent">
+    <p><strong>Star Wars Simulation</strong> - A Star Wars simulation game</p>
+    <a href="https://starwarssim.herokuapp.com/">Link to project</a>&emsp;&emsp;<a href="https://github.com/TheStender/starwars">Link to Github</a>
+</div>
+<div class="projectContent">
+    <p><strong>Federation Game</strong> - A game based on an AOL game</p>
+    <a href="https://federationgame.herokuapp.com/">Link to project</a>&emsp;&emsp;<a href="https://github.com/TheStender/federation">Link to Github</a>
+</div>
+<div class="projectContent">
+    <p><strong>Castle of the Winds RPG Game</strong> - A game based on Castle of the Winds</p>
+    <a href="https://castlerpggame.herokuapp.com/">Link to project</a>&emsp;&emsp;<a href="https://github.com/TheStender/castlerpg">Link to Github</a>
+</div>
+
